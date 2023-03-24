@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B26ACDC29F1E2130036062E /* CountingClimbsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26ACDB29F1E2130036062E /* CountingClimbsTests.swift */; };
+		6B26ACE329F1E2770036062E /* ClimbTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26ACE229F1E2770036062E /* ClimbTest.swift */; };
+		6B26ACE529F1E7200036062E /* ClimbServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26ACE429F1E7200036062E /* ClimbServiceTests.swift */; };
+		6B26ACE729F1E8F20036062E /* ClimbListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26ACE629F1E8F20036062E /* ClimbListViewControllerTests.swift */; };
+		6B2B472529E73BC800BAEF3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2B472429E73BC800BAEF3D /* DetailViewController.swift */; };
+		6B804C1A29E052B200AAF705 /* Climb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B804C1929E052B200AAF705 /* Climb.swift */; };
+		6B804C1C29E0572900AAF705 /* ClimbService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B804C1B29E0572900AAF705 /* ClimbService.swift */; };
+		6BE33A6829D4C8B100308BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE33A6729D4C8B100308BF3 /* AppDelegate.swift */; };
+		6BE33A6A29D4C8B100308BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE33A6929D4C8B100308BF3 /* SceneDelegate.swift */; };
+		6BE33A6C29D4C8B100308BF3 /* ClimbListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE33A6B29D4C8B100308BF3 /* ClimbListViewController.swift */; };
+		6BE33A6F29D4C8B100308BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE33A6D29D4C8B100308BF3 /* Main.storyboard */; };
+		6BE33A7129D4C8B900308BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE33A7029D4C8B900308BF3 /* Assets.xcassets */; };
+		6BE33A7429D4C8B900308BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE33A7229D4C8B900308BF3 /* LaunchScreen.storyboard */; };
+		6BE33A7C29D73BF000308BF3 /* ClimbCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE33A7B29D73BF000308BF3 /* ClimbCellTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B26ACDD29F1E2130036062E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE33A5C29D4C8B100308BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE33A6329D4C8B100308BF3;
+			remoteInfo = CountingClimbs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B26ACD929F1E2130036062E /* CountingClimbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingClimbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B26ACDB29F1E2130036062E /* CountingClimbsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingClimbsTests.swift; sourceTree = "<group>"; };
+		6B26ACE229F1E2770036062E /* ClimbTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbTest.swift; sourceTree = "<group>"; };
+		6B26ACE429F1E7200036062E /* ClimbServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbServiceTests.swift; sourceTree = "<group>"; };
+		6B26ACE629F1E8F20036062E /* ClimbListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbListViewControllerTests.swift; sourceTree = "<group>"; };
+		6B2B472429E73BC800BAEF3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6B804C1929E052B200AAF705 /* Climb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climb.swift; sourceTree = "<group>"; };
+		6B804C1B29E0572900AAF705 /* ClimbService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbService.swift; sourceTree = "<group>"; };
+		6BE33A6429D4C8B100308BF3 /* CountingClimbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingClimbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE33A6729D4C8B100308BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE33A6929D4C8B100308BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BE33A6B29D4C8B100308BF3 /* ClimbListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbListViewController.swift; sourceTree = "<group>"; };
+		6BE33A6E29D4C8B100308BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE33A7029D4C8B900308BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE33A7329D4C8B900308BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE33A7529D4C8B900308BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE33A7B29D73BF000308BF3 /* ClimbCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbCellTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B26ACD629F1E2130036062E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE33A6129D4C8B100308BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B26ACDA29F1E2130036062E /* CountingClimbsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B26ACDB29F1E2130036062E /* CountingClimbsTests.swift */,
+				6B26ACE229F1E2770036062E /* ClimbTest.swift */,
+				6B26ACE429F1E7200036062E /* ClimbServiceTests.swift */,
+				6B26ACE629F1E8F20036062E /* ClimbListViewControllerTests.swift */,
+			);
+			path = CountingClimbsTests;
+			sourceTree = "<group>";
+		};
+		6B804C1D29E0583200AAF705 /* ClimbManagement */ = {
+			isa = PBXGroup;
+			children = (
+				6B804C1B29E0572900AAF705 /* ClimbService.swift */,
+				6B804C1929E052B200AAF705 /* Climb.swift */,
+			);
+			path = ClimbManagement;
+			sourceTree = "<group>";
+		};
+		6BE33A5B29D4C8B100308BF3 = {
+			isa = PBXGroup;
+			children = (
+				6BE33A6629D4C8B100308BF3 /* CountingClimbs */,
+				6B26ACDA29F1E2130036062E /* CountingClimbsTests */,
+				6BE33A6529D4C8B100308BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE33A6529D4C8B100308BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE33A6429D4C8B100308BF3 /* CountingClimbs.app */,
+				6B26ACD929F1E2130036062E /* CountingClimbsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE33A6629D4C8B100308BF3 /* CountingClimbs */ = {
+			isa = PBXGroup;
+			children = (
+				6BE33A6729D4C8B100308BF3 /* AppDelegate.swift */,
+				6BE33A6929D4C8B100308BF3 /* SceneDelegate.swift */,
+				6BE33A6B29D4C8B100308BF3 /* ClimbListViewController.swift */,
+				6B2B472429E73BC800BAEF3D /* DetailViewController.swift */,
+				6B804C1D29E0583200AAF705 /* ClimbManagement */,
+				6BE33A6D29D4C8B100308BF3 /* Main.storyboard */,
+				6BE33A7B29D73BF000308BF3 /* ClimbCellTableViewCell.swift */,
+				6BE33A7029D4C8B900308BF3 /* Assets.xcassets */,
+				6BE33A7229D4C8B900308BF3 /* LaunchScreen.storyboard */,
+				6BE33A7529D4C8B900308BF3 /* Info.plist */,
+			);
+			path = CountingClimbs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B26ACD829F1E2130036062E /* CountingClimbsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B26ACDF29F1E2130036062E /* Build configuration list for PBXNativeTarget "CountingClimbsTests" */;
+			buildPhases = (
+				6B26ACD529F1E2130036062E /* Sources */,
+				6B26ACD629F1E2130036062E /* Frameworks */,
+				6B26ACD729F1E2130036062E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B26ACDE29F1E2130036062E /* PBXTargetDependency */,
+			);
+			name = CountingClimbsTests;
+			productName = CountingClimbsTests;
+			productReference = 6B26ACD929F1E2130036062E /* CountingClimbsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BE33A6329D4C8B100308BF3 /* CountingClimbs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE33A7829D4C8B900308BF3 /* Build configuration list for PBXNativeTarget "CountingClimbs" */;
+			buildPhases = (
+				6BE33A6029D4C8B100308BF3 /* Sources */,
+				6BE33A6129D4C8B100308BF3 /* Frameworks */,
+				6BE33A6229D4C8B100308BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountingClimbs;
+			productName = CountingClimbs;
+			productReference = 6BE33A6429D4C8B100308BF3 /* CountingClimbs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE33A5C29D4C8B100308BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6B26ACD829F1E2130036062E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6BE33A6329D4C8B100308BF3;
+					};
+					6BE33A6329D4C8B100308BF3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6BE33A5F29D4C8B100308BF3 /* Build configuration list for PBXProject "CountingClimbs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE33A5B29D4C8B100308BF3;
+			productRefGroup = 6BE33A6529D4C8B100308BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE33A6329D4C8B100308BF3 /* CountingClimbs */,
+				6B26ACD829F1E2130036062E /* CountingClimbsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B26ACD729F1E2130036062E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE33A6229D4C8B100308BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE33A7429D4C8B900308BF3 /* LaunchScreen.storyboard in Resources */,
+				6BE33A7129D4C8B900308BF3 /* Assets.xcassets in Resources */,
+				6BE33A6F29D4C8B100308BF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B26ACD529F1E2130036062E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B26ACDC29F1E2130036062E /* CountingClimbsTests.swift in Sources */,
+				6B26ACE329F1E2770036062E /* ClimbTest.swift in Sources */,
+				6B26ACE729F1E8F20036062E /* ClimbListViewControllerTests.swift in Sources */,
+				6B26ACE529F1E7200036062E /* ClimbServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE33A6029D4C8B100308BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE33A6C29D4C8B100308BF3 /* ClimbListViewController.swift in Sources */,
+				6B804C1A29E052B200AAF705 /* Climb.swift in Sources */,
+				6BE33A7C29D73BF000308BF3 /* ClimbCellTableViewCell.swift in Sources */,
+				6BE33A6829D4C8B100308BF3 /* AppDelegate.swift in Sources */,
+				6BE33A6A29D4C8B100308BF3 /* SceneDelegate.swift in Sources */,
+				6B804C1C29E0572900AAF705 /* ClimbService.swift in Sources */,
+				6B2B472529E73BC800BAEF3D /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B26ACDE29F1E2130036062E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE33A6329D4C8B100308BF3 /* CountingClimbs */;
+			targetProxy = 6B26ACDD29F1E2130036062E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BE33A6D29D4C8B100308BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE33A6E29D4C8B100308BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BE33A7229D4C8B900308BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE33A7329D4C8B900308BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B26ACE029F1E2130036062E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sophiahchiang.CountingClimbsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountingClimbs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountingClimbs";
+			};
+			name = Debug;
+		};
+		6B26ACE129F1E2130036062E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sophiahchiang.CountingClimbsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountingClimbs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountingClimbs";
+			};
+			name = Release;
+		};
+		6BE33A7629D4C8B900308BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE33A7729D4C8B900308BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE33A7929D4C8B900308BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CountingClimbs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sophiahchiang.CountingClimbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE33A7A29D4C8B900308BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CountingClimbs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sophiahchiang.CountingClimbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B26ACDF29F1E2130036062E /* Build configuration list for PBXNativeTarget "CountingClimbsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B26ACE029F1E2130036062E /* Debug */,
+				6B26ACE129F1E2130036062E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE33A5F29D4C8B100308BF3 /* Build configuration list for PBXProject "CountingClimbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE33A7629D4C8B900308BF3 /* Debug */,
+				6BE33A7729D4C8B900308BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE33A7829D4C8B900308BF3 /* Build configuration list for PBXNativeTarget "CountingClimbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE33A7929D4C8B900308BF3 /* Debug */,
+				6BE33A7A29D4C8B900308BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE33A5C29D4C8B100308BF3 /* Project object */;
+}
